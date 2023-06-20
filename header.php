@@ -30,7 +30,7 @@ navbar-toggler -->
     <div class="container-fluid">
 
         <a href="http://localhost:8080/simpleweb/index.php" class="navbar-brand ">
-            <img class="background-image" src="./image/Atn.png" alt="" width="150px" height="140px"></a>
+            <img class="background-image" src="../simpleweb/image/Atn.png" alt="" width="150px" height="140px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -44,7 +44,7 @@ include_once 'header.php';
                         <div class="col-md-4 pb-3">
                             <div class="display-flex">
                                 <div class="card">
-                                    <img style="width:auto; height: 300px;" src="./image/<?= $row['image'] ?>" class="card-img-top" alt="Product1>" />
+                                    <img style="width:auto; height: 300px;" src="../simpleweb/image/<?= $row['image'] ?>" class="card-img-top" alt="Product1>" />
 
                                     <div class="card-body">
 
