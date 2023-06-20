@@ -37,7 +37,7 @@ include_once 'header.php';
             <div class="col-md-4 pb-3">
                 <div class="display-flex">
                     <div class="card">
-                        <img src="../simpleweb/image/<?= $r['image'] ?>" class="card-img-top" alt="Product1>" style="margin: auto;
+                        <img src="./image/<?= $r['image'] ?>" class="card-img-top" alt="Product1>" style="margin: auto;
                         width: auto; height: 290px;" />
                         <div class="card-body">
                             <a href="detail.php?id=<?= $r['pid'] ?>" class="text-decoration-none">
