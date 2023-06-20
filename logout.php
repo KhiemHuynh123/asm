@@ -16,7 +16,7 @@ if(isset($_POST['btnLogout'])){
 			echo "Login successfully"; 
 			setcookie("cc_username",$row['fullname'],time()+3600);
 			setcookie("cc_id",$row['id'],time()-3600);
-			header("Location: Homepage2.php");
+			header("Location: index.php");
 		} else{
 			echo "Something wrong with your infomation<br>";
 		}
